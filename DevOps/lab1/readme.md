@@ -54,7 +54,7 @@ sudo openssl req -x509 -nodes -days 365 -newkey rsa:2048 \
 ## Нужно было еще добавить ссылки на файлы конфигурации в sites-enabled, что сделано сверху. Работоспособность проверял с помощью nginx -t. 
 ## По итогу довел до рабочего состояния файлики:
 ![image](https://github.com/user-attachments/assets/a9bba1c2-4180-42d8-90c0-9771971e88f3)
-Аналогично выглядит второй.
+### Аналогично выглядит второй.
 ## Когда пишем http, перекидывает на https. Условие выполнено. Но пишет об опасности сайта, так как сертификат самоподписанный
 ![image](https://github.com/user-attachments/assets/51e09e4c-ed73-4143-a12f-d36f279daf23)
 ![image](https://github.com/user-attachments/assets/3500aec6-71fa-464e-bcfb-fb3edb2488a4)
