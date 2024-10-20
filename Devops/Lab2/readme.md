@@ -14,7 +14,7 @@
 ## пишем плохой Dockerfile
 ![image](https://github.com/user-attachments/assets/d773ae8a-ee50-4a1e-aa70-5dd7d8a39bb9)
 ## пишем хороший Dockerfile
-![image](https://github.com/user-attachments/assets/94a58ae3-dbbb-4f8f-9486-96a11b183a74)
+![image](https://github.com/user-attachments/assets/243b3828-0dbd-42fc-b34d-3bd15a779891)
 # что не так
 ## Использование большого базового образа (ubuntu:18.04):
 
