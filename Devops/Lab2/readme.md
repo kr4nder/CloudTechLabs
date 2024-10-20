@@ -9,6 +9,7 @@
 ![image](https://github.com/user-attachments/assets/d773ae8a-ee50-4a1e-aa70-5dd7d8a39bb9)
 ## пишем хороший Dockerfile
 ![image](https://github.com/user-attachments/assets/94a58ae3-dbbb-4f8f-9486-96a11b183a74)
-## билдим 
-![Uploading image.png…]()
+## все сбилдилось ура
+![image](https://github.com/user-attachments/assets/9febbd56-f7c9-4ab1-8775-94d396a6637c)
+
 
