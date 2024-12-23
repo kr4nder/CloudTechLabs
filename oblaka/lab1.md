@@ -13,6 +13,9 @@
 Берём слепок биллинга
 
 ![image](https://github.com/user-attachments/assets/9d322258-68d7-448f-8b53-a561e65de42b)
+
 Гуглим информацию, находим сервисы в AWS и заполняем первые пять столбцов. Готовая таблица по ссылке: https://docs.google.com/spreadsheets/d/1xdRveSis0aWSJnpqzWoSVUhgBzJL9mjY6tpaG8Y6lOY/edit?usp=sharing
+
 ![image](https://github.com/user-attachments/assets/63d9b5ca-a1eb-4a1d-acea-891974aa0795)
+
 Опишем найденные сервисы
