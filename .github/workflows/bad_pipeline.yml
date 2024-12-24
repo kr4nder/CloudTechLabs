@@ -1,0 +1,19 @@
+stages:
+  - build
+  - test
+
+build-job:
+  stage: build
+  script:
+    - echo "Building project..."
+    - tar -czf app.tar.gz app.py
+    - echo "Build completed."
+
+test-job:
+  stage: test
+  script:
+    - apt-get update
+    - apt-get install python3 -y
+    - python3 app.py
+  only:
+    - main
