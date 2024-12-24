@@ -14,7 +14,7 @@ jobs:
           cd DevOps # в директорию DevOps
           cd lab3  # в директорию lab3
           mkdir build  # создаем директорию build
-          cp main.py build/main.py  # копируем файл в директорию build
+          cp app.py build/app.py  # копируем файл в директорию build
 
   test:
     runs-on: ubuntu-latest  # а последней версии Ubuntu
