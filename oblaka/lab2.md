@@ -14,11 +14,12 @@
 ### Ход работы
 Берём слепок биллинга
 
-![image](https://github.com/user-attachments/assets/ab898599-5861-4e9c-96ba-cdcdad6792d5)
+![image](https://github.com/user-attachments/assets/cfba1bfa-8475-4d4a-8fb1-eae342d53c3c)
+
 
 Гуглим информацию, находим сервисы в Azure и заполняем первые пять столбцов. Готовая таблица по ссылке:
 
-https://docs.google.com/spreadsheets/d/1Rvq_dEFvXUPlBTHtc5LKuwZ-DzUJKAfAmVScPd7oEc8/edit?usp=sharing
+
 
 Готовая таблица:
 ![image](https://github.com/user-attachments/assets/565eac3f-ad8b-4467-ad6b-6e689597018a)
