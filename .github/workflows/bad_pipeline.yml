@@ -11,6 +11,7 @@ jobs:
     steps:
       - uses: actions/checkout@v4  #
       - run: |
+          cd DevOps # в директорию DevOps
           cd lab3  # в директорию lab3
           mkdir build  # создаем директорию build
           cp main.py build/main.py  # копируем файл в директорию build
@@ -23,10 +24,12 @@ jobs:
         with:
           python-version: 3.12  # python версии 3.12
       - run: |
+          cd DevOps # в директорию DevOps
           cd lab3  # переходим в директорию lab3
           python -m pip install --upgrade pip  # pip до последней версии
           pip install pytest  # pytest для тестирования
       - run: |
+          cd DevOps # в директорию DevOps
           cd lab3  # в директорию lab3
-          pytest test_main.py  # запуск тестов
+          pytest test_output.py  # запуск теста
 
