@@ -17,7 +17,7 @@
 
 Гуглим информацию, находим сервисы в AWS и заполняем первые пять столбцов. Готовая таблица по ссылке: https://docs.google.com/spreadsheets/d/1DopVKrHt_fqv1XxOGau3uX5bR82QtyF4ZgBHm0s3Ii0/edit?gid=1365189198#gid=1365189198
 
-![image](https://github.com/user-attachments/assets/d7717407-5090-4a0f-9db0-ccdd7b8580a4)
+![image](https://github.com/user-attachments/assets/d0a2aa7f-c5f8-4399-bb5f-4c3a5771f37c)
 
 Опишем найденные сервисы
 * Amazon Elastic File System - управляемая файловая система, масштабируемая для использования с облачными сервисами и локальными ресурсами
