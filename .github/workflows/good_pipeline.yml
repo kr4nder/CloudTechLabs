@@ -1,0 +1,34 @@
+name: Good Pipeline  
+
+on:
+  push:
+    branches:
+      - main  # запуск при push в ветку main
+
+jobs:
+  build:
+    runs-on: ubuntu-22.04  # 22.04 ubuntu
+    steps:
+      - uses: actions/checkout@v4  #
+      - run: |
+          working-directory: ./DevOps/lab3
+          mkdir build  # создаем директорию build
+          cp app.py build/app.py  # копируем файл в директорию build
+
+  test:
+    runs-on: ubuntu-22.04  #
+    needs: build
+    timeout-minutes: 3
+    steps:
+      - uses: actions/checkout@v4  # код из репозитория
+      - uses: actions/setup-python@v4  
+        with:
+          python-version: 3.12  # python версии 3.12
+          cache: 'pip' # кэшируем
+      - run: |
+          working-directory: ./DevOps/lab3
+          python -m pip install --upgrade pip  # pip до последней версии
+          pip install pytest  # pytest для тестирования
+      - run: |
+          working-directory: ./DevOps/lab3
+          pytest test_output.py  # запуск теста
