@@ -11,7 +11,8 @@ jobs:
     steps:
       - uses: actions/checkout@v4  #
       - run: |
-          working-directory: ./DevOps/lab3
+          cd DevOps # в директорию DevOps
+          cd lab3  # в директорию lab3
           mkdir build  # создаем директорию build
           cp app.py build/app.py  # копируем файл в директорию build
 
@@ -26,9 +27,13 @@ jobs:
           python-version: 3.12  # python версии 3.12
           cache: 'pip' # кэшируем
       - run: |
-          working-directory: ./DevOps/lab3
+          cd DevOps # в директорию DevOps
+          cd lab3  # в директорию lab3
           python -m pip install --upgrade pip  # pip до последней версии
           pip install pytest  # pytest для тестирования
       - run: |
-          working-directory: ./DevOps/lab3
+          flake8 . # linter
+      - run: |
+          cd DevOps # в директорию DevOps
+          cd lab3  # в директорию lab3
           pytest test_output.py  # запуск теста
