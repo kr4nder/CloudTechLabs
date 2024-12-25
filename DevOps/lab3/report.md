@@ -7,11 +7,17 @@
 Ход работы:
 Пишу файл app.py, который выводит Hello World! и test_output.py - тест для него. Пишу CI/CD файлы, чтобы при пуше в main выполнялся build и тест программы.
 Bad CI/CD File
+
 ![image](https://github.com/user-attachments/assets/1467816e-f7e0-4fac-89a3-43eb6314e57a)
+
 Good CI/CD File
+
 ![image](https://github.com/user-attachments/assets/46499199-280c-41cc-810c-61fe3c75f91a)
+
 Проверяем работу
+
 ![image](https://github.com/user-attachments/assets/ee73f7f4-ce55-4529-8b10-15abe78d8dac)
+
 ## Bad Practices
 * Ставить ubuntu-latest
 Как мы уже знаем из прошлой лабы, так как могут возникнуть неожиданные проблемы. Используем конкретную версию 22.04
