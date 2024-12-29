@@ -22,7 +22,8 @@
 https://docs.google.com/spreadsheets/d/1l6bSz6DRvGHplJ__mPZLZnEftV3AOipKvvyyTMnpW9A/edit?usp=sharing
 
 Готовая таблица:
-![image](https://github.com/user-attachments/assets/5ff5e7dc-d667-430c-9e2f-8d57722f49ee)
+![image](https://github.com/user-attachments/assets/f37c3266-8948-4c4b-a134-1f5f1a2d5e98)
+
 
 
 О встретившихся сервисах:
